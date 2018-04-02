@@ -14,6 +14,7 @@ import io.reactivex.subjects.Subject;
 
 public class RxBus {
 
+    //Test
     private ConcurrentHashMap<Object,List<Subject>> subjectMapper = new ConcurrentHashMap<>();
 
     private RxBus(){
