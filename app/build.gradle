@@ -16,6 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/menu'] } }
 }
 
 dependencies {
@@ -40,4 +41,5 @@ dependencies {
     //okhttp3
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     debugImplementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.android.support:design:26.0.0-alpha1'
 }

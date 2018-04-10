@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">头条</string>
+    <string name="title_news">新闻</string>
+    <string name="title_photo">图片</string>
+    <string name="title_video">视频</string>
+    <string name="title_media">头条号</string>
 </resources>
