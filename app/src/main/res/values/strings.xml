@@ -4,4 +4,6 @@
     <string name="title_photo">图片</string>
     <string name="title_video">视频</string>
     <string name="title_media">头条号</string>
+    <string name="action_search">搜索</string>
+    <string name="double_click_exit">再按一次退出程序</string>
 </resources>
